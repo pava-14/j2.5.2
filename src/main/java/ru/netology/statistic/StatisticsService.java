@@ -7,6 +7,7 @@ public class StatisticsService {
      * @param incomes - array of incomes
      * @return - index of first max value
      */
+    int someVar;
     public long findMax(long[] incomes) {
         long current_max_index = 0;
         long current_max = incomes[0];
